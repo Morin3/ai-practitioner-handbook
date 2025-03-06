@@ -3,7 +3,7 @@
 # $ conda activate <env>
 # $ pip install -r requirements.txt
 ipykernel==6.15.1
-jinja2==3.1.2
+jinja2==3.1.6
 jupyter==1.0.0
 jupyter-book==0.13.0
 jupytext==1.14.1
@@ -24,3 +24,4 @@ sphinx==4.5.0
 sphinx-jupyterbook-latex==0.4.6
 sphinxcontrib-mermaid==0.7.1
 toml==0.10.2
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
